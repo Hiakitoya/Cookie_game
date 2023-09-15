@@ -17,4 +17,3 @@ class Cookie_game():
         self.navegador.find_element('css selector', 'div#langSelect-PT-BR').click()   
 
 Cookie_game()
-#div#langSelect-PT-BR
