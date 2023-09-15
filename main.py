@@ -13,4 +13,8 @@ class Cookie_game():
     def abrir_site(self, site):
         self.navegador.get(site)
         sleep(10)
-    
+        #Escolher linguagem
+        self.navegador.find_element('css selector', 'div#langSelect-PT-BR').click()   
+
+Cookie_game()
+#div#langSelect-PT-BR
